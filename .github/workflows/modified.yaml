@@ -17,7 +17,7 @@ jobs:
     # Don't run on forked repos.
     # if: github.repository_owner == 'DeepPSP'
 
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         # CINTENT >> REMOVE_MATRIX
